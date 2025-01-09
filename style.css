@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+}
+.main_container{
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+    margin-top: 2em;
+}
+.main_container h1{
+    font-size: 3em;
+}
+.input_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+.input_date{
+    font-size: 1.5em;
+    padding: 10px;
+}
+.btn{
+    font-size: 1.5em;
+    background-color: rebeccapurple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+.tracker_container{
+    margin-top: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4em;
+}
+.common_container{
+    font-size: 3em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+    .tracker_container{
+        flex-direction: column;
+    }
+}
+
